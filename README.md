@@ -103,6 +103,3 @@ All task routes are protected using JWT middleware.
 
 ---
 
-## Notes
-
-The application is structured for easy scalability and clean separation of concerns.
