@@ -12,13 +12,13 @@ export default function Dashboard() {
 
   const addTask = async () => {
     if (!title) return;
-    await api.post("/tasks", { title });
+    await api.post("/api/tasks", { title });
     setTitle("");
     loadTasks();
   };
 
   const deleteTask = async (id) => {
-    await api.delete(`/tasks/${id}`);
+    await api.delete(`/api/tasks/${id}`);
     loadTasks();
   };
 
