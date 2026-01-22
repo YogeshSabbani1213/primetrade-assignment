@@ -1,4 +1,5 @@
 # Frontend Developer Assignment – Authentication & Dashboard
+# github link:https://github.com/YogeshSabbani1213/primetrade-assignment
 
 This project is a full-stack web application built as part of the Frontend Developer Intern assignment.  
 The application includes user authentication, a protected dashboard, and CRUD functionality.
