@@ -26,7 +26,7 @@ export default function Register() {
         }
 
         try {
-            await api.post("/auth/register", form);
+            await api.post("/api/auth/register", form);
             setSuccess("Registration successful. You can now login.");
             setTimeout(() => {
                 window.location.href = "/login";
