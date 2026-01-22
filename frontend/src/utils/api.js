@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://primetrade-assignment-9eyj.onrender.com/api",
+  baseURL: "https://primetrade-assignment-9eyj.onrender.com",
 });
 
 api.interceptors.request.use((req) => {
